@@ -1,0 +1,53 @@
+{
+  "candidate_columns": [
+    "ecg_amp_rr_consensus",
+    "ecg_rsa_rr_consensus",
+    "ecg_baseline_rr_consensus",
+    "ecg_morph_rr_consensus",
+    "ppg_interval_rr_consensus",
+    "ppg_amp_rr_consensus",
+    "ppg_baseline_rr_consensus",
+    "ppg_width_rr_consensus",
+    "pred_ecg_quality_fusion",
+    "pred_ppg_quality_fusion",
+    "pred_all_quality_fusion",
+    "pred_ecg_pca",
+    "pred_ppg_pca",
+    "pred_all_pca"
+  ],
+  "quality_columns": [
+    "ecg_amp_rqi_overall",
+    "ecg_rsa_rqi_overall",
+    "ecg_baseline_rqi_overall",
+    "ecg_morph_rqi_overall",
+    "ppg_interval_rqi_overall",
+    "ppg_amp_rqi_overall",
+    "ppg_baseline_rqi_overall",
+    "ppg_width_rqi_overall",
+    "conf_ecg_quality_fusion",
+    "conf_ppg_quality_fusion",
+    "conf_all_quality_fusion",
+    "ecg_sqi_composite",
+    "ppg_sqi_composite",
+    "rqi_composite"
+  ],
+  "coefficients": [
+    2.3774333624043225,
+    -0.8683726738109254,
+    1.1446118255439566,
+    0.3527796011600793,
+    0.8730049018609202,
+    -0.5264826970091946,
+    1.5872466062734873,
+    0.6969030753803243,
+    -1.099791725768339,
+    -0.3591349338440366,
+    -1.1531863866026124,
+    -1.138332874150844,
+    -0.45016276751334183,
+    -1.4379331957638928,
+    -0.6608783993004087,
+    1.0
+  ],
+  "seed": 20261008
+}

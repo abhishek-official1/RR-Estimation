@@ -1,0 +1,24 @@
+{
+  "model": "original single PhysioMoE checkpoint",
+  "source_checkpoint_sha256": "2be26915f3b23b3db297f47731281e6c3bc4f7c399b002ff44b427b9a9ff8217",
+  "split_seed": 20261003,
+  "train_rows": 7990,
+  "reported_train_rows": 8237,
+  "exact_preprocessor_reconstruction": false,
+  "train_subject_ids": 211,
+  "development_rows": 11806,
+  "context_dimensions": 195,
+  "candidate_dimensions": 14,
+  "sample_predictions_bpm": [
+    9.417409,
+    7.756507,
+    9.372391,
+    10.449898,
+    10.193942,
+    12.740018,
+    9.593362,
+    7.781637
+  ],
+  "seconds": 10.118437600001926,
+  "notes": "The saved training split does not match the split reproduced from available feature tables. Original fitted imputer/scaler parameters were not saved; predictions are experimental and are not a validated reproduction. Single checkpoint only; saved ensemble member weights are unavailable."
+}
